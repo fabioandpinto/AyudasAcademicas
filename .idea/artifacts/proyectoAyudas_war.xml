@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="proyectoAyudas:war">
+    <output-path>$PROJECT_DIR$/proyectoAyudas/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>proyectoAyudas</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="proyectoAyudas.war">
+      <element id="artifact" artifact-name="proyectoAyudas:war exploded" />
+    </root>
+  </artifact>
+</component>
